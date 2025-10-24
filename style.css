@@ -1,0 +1,153 @@
+@charset "UTF-8";
+
+:root {
+    --azul: #012E40;
+    --amarelo: #ffc93f;
+    --creme: #F2F1DC;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: "Sour Gummy", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #012E40;
+    font-family: "Sour Gummy", sans-serif;
+    font-weight: normal;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #ffc93f, #d4a735);
+    min-height: 120px;
+    text-align: center;
+    padding-top: 40px;
+    }
+
+header > h1 {   
+    color: var(--creme);     
+    font-weight: bolder; 
+    margin-bottom: 20px;
+    font-size: 3em;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.274);
+}
+
+header > p {
+    color: var(--creme);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.274);
+    margin-bottom: 20px;
+    }
+
+nav {
+    background-color: #d4a735;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
+    padding-bottom: 5px;
+    
+}
+
+nav > a {
+    color: var(--creme);
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav > a:hover {
+    background-color: var(--creme);
+    color: var(--amarelo);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.205);
+    border-radius: 5px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    }
+
+main {
+    background-color: var(--creme);
+    min-width: 250px;
+    max-width: 900px;
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    margin: auto;
+}
+
+main h1 {
+    color: var(--azul);    
+}
+
+main h2 {
+    color: var(--amarelo); 
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.315);   
+    background-image: linear-gradient(to right, var(--azul), transparent);  
+    padding: 0px 0px 0px 10px;  
+}
+
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.5em;
+}
+
+main img {
+    width: 100%;
+}
+
+main img.pequena {
+    width: 50%;
+    display: block;
+    margin: auto;
+    padding-bottom: 20px;
+
+}
+
+div.video {
+    background-color: var(--amarelo);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top:5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;    
+}
+    
+
+aside {
+    color: var(--creme);
+    background-color: var(--azul);
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+aside h3 {
+    background-color: var(--amarelo);
+    color: var(--azul);
+    padding: 5px;
+    margin: -10px -10px 0px -10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > ul {
+    list-style-position: inside;
+    columns: 2;
+    text-align: justify;
+    font-size: 0.8em;
+    
+
+}
+footer {
+    color: var(--creme);
+    text-align: center;
+}
+
+
+
+
+
